@@ -44,7 +44,7 @@ apt-get install nodejs -y
 ### 5.1 Instalar dependencias
 
 ```
-sudo apt install apt-transport-https ca-certificates curl software-properties-common
+sudo apt install apt-transport-https ca-certificates curl software-properties-common -y
 ```
 
 ### 5.2 Instalar las llaves de GPG
