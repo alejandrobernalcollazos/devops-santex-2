@@ -23,7 +23,7 @@ apt-get update
 ### 4.1 Instalar curl
 
 ```
-apt-get install curl
+apt-get install curl -y
 
 ```
 
@@ -36,7 +36,7 @@ curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 ### 4.3 Instalar node
 
 ```
-apt-get install nodejs
+apt-get install nodejs -y 
 ```
 
 ## 5. Instalar Docker
@@ -74,7 +74,7 @@ apt-cache policy docker-ce
 ### 5.6 Instalar docker
 
 ```
-sudo apt install docker-ce
+sudo apt install docker-ce -y
 ```
 
 ### 5.7 Validar que docker este corriendo
@@ -116,7 +116,7 @@ cd ~
 ## 2. Instalar un servidor de MySQL 
 
 ```
-apt install mysql-server
+apt install mysql-server -y
 ```
 
 ## 3. Ingresar en la consola de la base de datos
