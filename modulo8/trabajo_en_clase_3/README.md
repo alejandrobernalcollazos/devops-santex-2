@@ -8,9 +8,12 @@
 
 ## 2. Conectarse a una maquina remota
 
-## 3. Instalar dependencias de Docker
+## 3. Instalar dependencias de Docker y NodeJS
 
 ```
+sudo apt-get install curl
+curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+sudo apt-get install nodejs
 apt install apt-transport-https ca-certificates curl software-properties-common -y
 ```
 
